@@ -1,0 +1,170 @@
+{
+ "closing": [
+  {
+   "say": "今日はここまでです。気になる話題があれば、また明日お届けします。",
+   "show": "今日はここまで。また明日。"
+  }
+ ],
+ "date": "2026-11-06",
+ "format": "monoradio/news-1",
+ "lang": "ja",
+ "made_at": "2026-11-12T03:33:54",
+ "news": [
+  {
+   "label": "P-H3-Image",
+   "lines": [
+    {
+     "say": "一本目は、PrunaAIのP-H3-Imageです。11月3日に公開された、ローカルで動く画像生成と編集のモデルで、動画モデルMiniMax H3のイラスト版という位置づけです。",
+     "show": "P-H3-Image：PrunaAIの画像生成・編集モデル（11月3日公開）"
+    },
+    {
+     "say": "注目は、同じキャラクターの別カットを作りやすい点です。参照画像一枚から画風や服装を保ったまま、背景の差し替えや配置もテキスト指示でできるという検証報告があります。",
+     "show": "同じキャラの別カット作りと、テキスト指示での背景差し替えが強い"
+    },
+    {
+     "say": "ただし、試す前の注意点が二つあります。ライセンスはMiniMax H3 Community Licenseで、アメリカやEUなどでは別ライセンスなしでは使えません。日本は除外地域に入っていませんが、製品にはPowered by MiniMax H3の表示が必要です。もう一つは動作環境で、量子化版でもVRAMは21ギガと案内されていて、16ギガ環境ではDynamicVRAMなどの工夫が要ります。",
+     "show": "注意：ライセンスはMiniMax H3 Community License／量子化版でもVRAM 21GB案内"
+    }
+   ],
+   "link": {
+    "description": "MiniMax-H3ベースの画像生成・編集モデル。8ステップ、8メガピクセル、最大8枚の参照画像。",
+    "icon": null,
+    "image": null,
+    "site": "Hugging Face",
+    "title": "PrunaAI/P-H3-Image",
+    "url": "https://huggingface.co/PrunaAI/P-H3-Image"
+   },
+   "points": [
+    "PrunaAIが11月3日に公開した画像生成・編集モデル",
+    "人物の一貫性と、テキスト指示での背景差し替えが強い",
+    "ライセンスはMiniMax H3 Community License。日本は除外地域に入っていないが、製品にはPowered by MiniMax H3の表示が必要"
+   ],
+   "url": "https://huggingface.co/PrunaAI/P-H3-Image"
+  },
+  {
+   "label": "LivLiv Player",
+   "lines": [
+    {
+     "say": "二本目は、LivLiv Playerです。一枚絵のキャラクターを奥行きっぽく動かす、ウェブ用の2.5Dプレーヤーがオープンソースになりました。",
+     "show": "LivLiv Player：2.5Dキャラクタープレーヤーをオープンソース化"
+    },
+    {
+     "say": "口パクと、ウェブカメラで自分の顔の動きをキャラに反映するフェイストラッキングに対応していて、サイズはgzipでおよそ34キロバイトと、とても軽いのが売りです。",
+     "show": "口パク＋フェイストラッキング対応、gzip約34KB"
+    },
+    {
+     "say": "自分のラジオ局のキャスターを動かす部品としても参考になります。ただし、公開された21体のキャラクターの中に、オリジナルではないキャラが混じっていないかという指摘も付いているので、キャラを使うときは出所の確認が必要です。",
+     "show": "注意：公開キャラ21体の出所は、使う前に確認が必要"
+    }
+   ],
+   "link": {
+    "description": "Web用の2.5Dキャラクタープレーヤー。リップシンクとフェイストラッキングに対応。",
+    "icon": null,
+    "image": null,
+    "site": "GitHub",
+    "title": "livliv-dev/player",
+    "url": "https://github.com/livliv-dev/player"
+   },
+   "points": [
+    "Web用の2.5Dキャラクタープレーヤーをオープンソース化",
+    "口パクとWebカメラのフェイストラッキングに対応",
+    "gzipで約34KBと超軽量。21体のキャラクターも一緒に公開"
+   ],
+   "url": "https://github.com/livliv-dev/player"
+  }
+ ],
+ "opening": [
+  {
+   "say": "おはようございます。AI画像生成ニュースをお届けします。",
+   "show": "おはようございます。AI画像生成ニュースをお届けします。"
+  },
+  {
+   "say": "今日は、ローカルで動く新しい画像モデルと、キャラクターを動かす軽いプレーヤーの二本です。",
+   "show": "今日は2本：新しい画像モデルと、キャラを動かす軽いプレーヤーです。"
+  }
+ ],
+ "seconds": 114.424,
+ "title": "AI画像生成ニュース：P-H3-ImageとLivLiv Player",
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 4.619,
+   "show": "おはようございます。AI画像生成ニュースをお届けします。",
+   "part": 0
+  },
+  {
+   "start": 4.869,
+   "end": 11.227,
+   "show": "今日は2本：新しい画像モデルと、キャラを動かす軽いプレーヤーです。",
+   "part": 0
+  },
+  {
+   "start": 12.277,
+   "end": 26.801,
+   "show": "P-H3-Image：PrunaAIの画像生成・編集モデル（11月3日公開）",
+   "part": 1
+  },
+  {
+   "start": 27.051,
+   "end": 39.655,
+   "show": "同じキャラの別カット作りと、テキスト指示での背景差し替えが強い",
+   "part": 1
+  },
+  {
+   "start": 39.905,
+   "end": 69.248,
+   "show": "注意：ライセンスはMiniMax H3 Community License／量子化版でもVRAM 21GB案内",
+   "part": 1
+  },
+  {
+   "start": 70.298,
+   "end": 79.652,
+   "show": "LivLiv Player：2.5Dキャラクタープレーヤーをオープンソース化",
+   "part": 2
+  },
+  {
+   "start": 79.902,
+   "end": 91.057,
+   "show": "口パク＋フェイストラッキング対応、gzip約34KB",
+   "part": 2
+  },
+  {
+   "start": 91.307,
+   "end": 106.848,
+   "show": "注意：公開キャラ21体の出所は、使う前に確認が必要",
+   "part": 2
+  },
+  {
+   "start": 107.898,
+   "end": 112.424,
+   "show": "今日はここまで。また明日。",
+   "part": 3
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 12.277
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 12.277,
+   "end": 70.298
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 70.298,
+   "end": 107.898
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 107.898,
+   "end": 114.424
+  }
+ ]
+}
