@@ -9,14 +9,6 @@
   "pack": "character/character.json",
   "thumbnail": "character/base.png"
  },
- "comments": {
-  "giscus": {
-   "category": "Comments",
-   "categoryId": "DIC_kwDOVjfh2M4DKdQF",
-   "repo": "monoradio102/myradio",
-   "repoId": "R_kgDOVjfh2A"
-  }
- },
  "credits": [
   "VOICEVOX：四国めたん"
  ],
