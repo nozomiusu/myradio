@@ -1,1 +1,53 @@
-{"audio":{"dir":"audio","keep_days":30},"caster":"声：COEIROINK:リリンちゃん","character":{"note":"AIで生成したキャラクターです","pack":"character/character.json","thumbnail":"character/base.png"},"comments":{"giscus":{"category":"Comments","categoryId":"DIC_kwDOVjfh2M4DKdQF","repo":"monoradio102/myradio","repoId":"R_kgDOVjfh2A"}},"credits":["声：COEIROINK:リリンちゃん"],"description":"AI画像生成の、きのうの気になるニュースを、毎朝90秒で。","episodes":"episodes.json","format":"myradio/station-1","i18n":{"en":{"caster":"Voice: Kokoro (af_heart)","credits":["Voice: Kokoro (af_heart)"],"description":"The news worth knowing in AI image generation, every morning in 90 seconds.","name":"Meshihai Radio","tagline":"Morning news on AI image generation"}},"language":"ja","languages":["ja","en"],"logo":"logo.svg","name":"めしはいラジオ","repo":"https://github.com/nozomiisu/myradio","schedule":{"every":"day","time":"06:10","timezone":"Asia/Tokyo"},"tagline":"AI画像生成 朝のニュース","url":"https://nozomiisu.github.io/myradio/","weather":true}
+{
+ "audio": {
+  "dir": "audio",
+  "keep_days": 30
+ },
+ "caster": "声：VOICEVOX：四国めたん",
+ "character": {
+  "note": "AIで生成したキャラクターです",
+  "pack": "character/character.json",
+  "thumbnail": "character/base.png"
+ },
+ "comments": {
+  "giscus": {
+   "category": "Comments",
+   "categoryId": "DIC_kwDOVjfh2M4DKdQF",
+   "repo": "monoradio102/myradio",
+   "repoId": "R_kgDOVjfh2A"
+  }
+ },
+ "credits": [
+  "VOICEVOX：四国めたん"
+ ],
+ "description": "AI画像生成の、きのうの気になるニュースを、毎朝90秒で。",
+ "episodes": "episodes.json",
+ "format": "myradio/station-1",
+ "i18n": {
+  "en": {
+   "caster": "Voice: VOICEVOX: Shikoku Metan",
+   "credits": [
+    "Voice: VOICEVOX: Shikoku Metan"
+   ],
+   "description": "The news worth knowing in AI image generation, every morning in 90 seconds.",
+   "name": "Meshihai Radio",
+   "tagline": "Morning news on AI image generation"
+  }
+ },
+ "language": "ja",
+ "languages": [
+  "ja",
+  "en"
+ ],
+ "logo": "logo.svg",
+ "name": "めしはいラジオ",
+ "repo": "https://github.com/nozomiisu/myradio",
+ "schedule": {
+  "every": "day",
+  "time": "06:10",
+  "timezone": "Asia/Tokyo"
+ },
+ "tagline": "AI画像生成 朝のニュース",
+ "url": "https://nozomiisu.github.io/myradio/",
+ "weather": true
+}
